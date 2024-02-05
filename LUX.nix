@@ -1,3 +1,4 @@
+{nix, pkg, config, ...}
 {
   nix = {
     pkg = {
