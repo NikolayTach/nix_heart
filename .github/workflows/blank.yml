@@ -27,8 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo Relabeled /etc/systemd/system/actions.runner.NikolayTach-chrono.alto.nix-heart.service from unconfined_u:object_r:user_home_t:s0 to unconfined_u:object_r:systemd_unit_file_t:s0
-Created symlink /etc/systemd/system/multi-user.target.wants/actions.runner.NikolayTach-chrono.alto.nix-heart.service → /etc/systemd/system/actions.runner.NikolayTach-chrono.alto.nix-heart.service.
+        run: echo /etc/systemd/system/multi-user.target.wants/actions.runner.NikolayTach-chrono.alto.nix-heart.service → /etc/systemd/system/actions.runner.NikolayTach-chrono.alto.nix-heart.service.
 
 
       # Runs a set of commands using the runners shell
